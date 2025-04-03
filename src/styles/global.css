@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+:root{
+    --color-grey: #000000;
+    --color-primary: #00A000;
+    --color-black: #000001;
+    --color-white: #FFFFFF;
+    --color-BG-Overlay: #FAFAFA;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 28px;
+}
+
