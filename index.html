@@ -12,22 +12,23 @@
     <link rel="stylesheet" href="./src/styles/styles.css">
 </head>
 <body> 
+<!------------------------ Header ------------------------>
     <header>
         <div class="logo">
-            <p id="header-logo">Quickfood</p>
+            <img src="./src/assets/images/logo.png" alt="logo QuickFood">
+            <!-- <p id="header-logo">Quickfood</p> -->
         </div>
         
-        <nav class="header-navigation">
+        <nav>
             <ul class="header-options">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">About</a></li>
+                <li><a class="header-options-item" id="active" href="#">Home</a></li>
+                <li><a class="header-options-item" href="#">Products</a></li>
+                <li><a class="header-options-item" href="#">Contact us</a></li>
+                <li><a class="header-options-item" href="#">About</a></li>
             </ul>
-        </nav>
-        
+        </nav>        
 
-        <div>
+        <div class="header-content">
             <div class="header-icons">
                 <img src="./src/assets/images/search.svg" alt="icon-search">
                 <img src="./src/assets/images/buy.svg" alt="icon-buy">
@@ -35,5 +36,6 @@
             <a class="header-button" href="#">Login</a>
         </div>
     </header>
+<!------------------------ Fim Header ------------------------>
 </body>
 </html>

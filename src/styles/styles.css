@@ -1,1 +1,68 @@
 @import url(./global.css);
+
+/* ------------------------ Header ------------------------ */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-options{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 56px 0px;
+}
+
+#active{
+    color: var(--color-primary) !important;
+}
+
+.header-options-item{
+    color: rgba(0, 0, 1, 0.6);
+}
+
+.header-options-item:hover{
+    color: var(--color-primary);
+}
+
+.header-content{
+    display: flex;
+    margin: 40px 0px;
+    gap: 24px;
+    align-items: center;
+}
+
+.header-icons{  
+    display: flex;
+    gap: 16px;
+    margin: 5.5px 0px;
+    cursor: pointer;
+}
+
+.header-icons img{
+    transition: 1s;
+}
+.header-icons img:hover{
+    transform: translateY(-8px);
+}
+
+.header-content a{
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.header-content a:hover{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transform: translateY(-2px);
+}
+
+
+/* ------------------------ Fim Header ------------------------ */

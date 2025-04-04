@@ -6,7 +6,8 @@
 }
 
 :root{
-    --color-grey: #000000;
+    --color-grey: #000000;    
+    --color-gray: #999999;    
     --color-primary: #00A000;
     --color-black: #000001;
     --color-white: #FFFFFF;
