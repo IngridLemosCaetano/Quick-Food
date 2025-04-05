@@ -92,7 +92,7 @@ header{
 .deliver-container h1{
     font-size: 60px;
     /* font-family: 'Gilroy-Black', sans-serif; */
-    /* font-weight: bolder(900); */
+    /* font-weight: bolder(900);  Matheus... heeelp-me*/
     line-height: 80px;
     color: var(--color-grey);    
 }
@@ -112,7 +112,7 @@ header{
 
 .deliver-buttons{
     /* margin-top: 32px; */
-    /* gap: 24px;  Matheus não funcionou, então inserir margin-right no btn-order*/
+    /* gap: 24px;  Matheus não funcionou :(, então inseri margin-right no btn-order*/
 }
 
 #btn-order{
@@ -141,3 +141,7 @@ header{
     height: 494px;
 }
 /* ------------------------ Fim Deliver Food ------------------------ */
+
+/* ------------------------ Choose Us ------------------------ */
+
+/* ------------------------ Fim Choose Us ------------------------ */
