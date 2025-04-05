@@ -26,7 +26,10 @@ header{
 
 .header-options-item:hover{
     color: var(--color-primary);
+    font-weight: bold;
 }
+
+
 
 .header-content{
     display: flex;
