@@ -72,7 +72,7 @@ header{
 
 .deliver{
     display: flex;
-    /* gap: 124px; */
+    gap: 124px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -82,16 +82,17 @@ header{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin: 150px 0px 153px 0px;
+    margin: 75px 0px 75px 0px;
     gap: 32px;
 }
 
 .deliver-container h1{
-    font-size: 60px;
-    /* font-family: 'Gilroy-Black', sans-serif; */
-    /* font-weight: 900;  Matheus... heeelp-me*/
+    font-size: 60;
+    /* font-family: 'Gilroy-Black', sans-serif !important; */
+    font-weight: 900;
     line-height: 80px;
-    color: var(--color-grey);    
+    color: var(--color-grey);
+    width: 614px;   
 }
 
 .deliver-container h1 span{
@@ -133,8 +134,8 @@ header{
 
 .deliver-image img{
     margin: 99px 0px 102px 0px;
-    width: 651px;
-    height: 494px;
+    width: 451px;
+    /* height: 494px; */
 }
 /* ------------------------ Fim Deliver Food ------------------------ */
 
@@ -183,6 +184,7 @@ header{
 .choose-cards h3{
     font-size: 28px;
     font-weight: 600;
+    font-family: "Gilroy-SemiBold"; /* pqp fonte */
     margin-top: 40px;
 }
 
@@ -204,9 +206,12 @@ header{
     gap: 8px;
     width: 400px;
 }
+
+
 .choose-infos-data h3{
     color: var(--color-black);
     font-size: 48px;
+    font-family: "Gilroy-Black"; /* pqp fonte */
     font-weight: 900;
 }
 
@@ -214,3 +219,7 @@ header{
     color: var(--color-gray);
 }
 /* ------------------------ Fim Choose Us ------------------------ */
+
+/* ------------------------ Special dishes ------------------------ */
+
+/* ------------------------ Fim Special dishes ------------------------ */

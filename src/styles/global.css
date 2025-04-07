@@ -19,8 +19,18 @@
     src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
 }
 
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url('../assets/fonts/Gilroy-Black.ttf') format('ttf');         
+}
+
+@font-face {
+    font-family: 'Gilroy-light';
+    src: url('../assets/fonts/Gilroy-Light.ttf') format('ttf');         
+}
+
 body {
-    font-family: 'Gilroy', sans-serif; 
+    font-family: 'Gilroy', sans-serif ; 
 }
 
 h1{
