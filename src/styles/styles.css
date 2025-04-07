@@ -12,7 +12,7 @@ header{
     gap: 40px;
     list-style: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     margin: 56px 0px;
 }
 
@@ -28,8 +28,6 @@ header{
     color: var(--color-primary);
     font-weight: bold;
 }
-
-
 
 .header-content{
     display: flex;
@@ -74,14 +72,13 @@ header{
 
 .deliver{
     display: flex;
-    gap: 124px;
+    /* gap: 124px; */
     justify-content: space-evenly;
     align-items: center;
 }
 
 .deliver-container {
     width: 563px;
-    height: 392px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -92,7 +89,7 @@ header{
 .deliver-container h1{
     font-size: 60px;
     /* font-family: 'Gilroy-Black', sans-serif; */
-    /* font-weight: bolder(900);  Matheus... heeelp-me*/
+    /* font-weight: 900;  Matheus... heeelp-me*/
     line-height: 80px;
     color: var(--color-grey);    
 }
@@ -111,8 +108,8 @@ header{
 }
 
 .deliver-buttons{
-    /* margin-top: 32px; */
-    /* gap: 24px;  Matheus não funcionou :(, então inseri margin-right no btn-order*/
+    display: flex;
+    gap: 24px;
 }
 
 #btn-order{
@@ -122,7 +119,6 @@ header{
     border-radius: 10px;
     font-size: 16px;
     font-weight: 600;
-    margin-right: 24px;
 }
 
 #btn-explore{
@@ -144,4 +140,77 @@ header{
 
 /* ------------------------ Choose Us ------------------------ */
 
+.choose{
+    background-color: var(--color-BG-Overlay);
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose h2{
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--color-black);
+}
+
+.choose p{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--color-gray);
+    margin-top: 8px;
+    letter-spacing: 4.5%;
+}
+
+.choose-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.choose-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0px 40px 0px;
+    /* gap: 20px; */
+    box-sizing: border-box;
+    width: 400px;
+    height: 340px;
+}
+
+.choose-cards h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.choose-cards p{
+    width: 275px;    
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.choose-cards img{
+    width: 218px;
+}
+
+.choose-infos-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 400px;
+}
+.choose-infos-data h3{
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.choose-infos-data p{
+    color: var(--color-gray);
+}
 /* ------------------------ Fim Choose Us ------------------------ */
