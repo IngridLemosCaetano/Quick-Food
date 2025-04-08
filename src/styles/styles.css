@@ -120,6 +120,13 @@ header{
     border-radius: 10px;
     font-size: 16px;
     font-weight: 600;
+    transition: 0.4s;
+}
+
+#btn-order:hover{
+    cursor: pointer;
+    transform: translatey(-3px);
+    box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
 }
 
 #btn-explore{
@@ -130,6 +137,13 @@ header{
     font-size: 16px;
     font-weight: 600;
     border: 1px solid var(--color-primary);
+    transition: 0.4s;
+}
+
+#btn-explore:hover{
+    cursor: pointer;
+    transform: translatey(-3px);
+    box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
 }
 
 .deliver-image img{
@@ -221,5 +235,67 @@ header{
 /* ------------------------ Fim Choose Us ------------------------ */
 
 /* ------------------------ Special dishes ------------------------ */
+.special-dishes{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 100px;    
+}
 
+.special-dishes h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.special-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.special-card{
+    width: 400px;
+    height: 485px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-card p{
+    width: 279px;
+    color: var(--color-black);
+    margin: 16px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.special-card h3{
+    margin-top: 16px;
+    font-weight: 900;
+    font-size: 28px;
+    /* text-align: center; */
+}
+
+.special-card button{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 16px 140px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.special-card button:hover{
+    cursor: pointer;
+    transform: translatey(-3px);
+    box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
+}
+
+.special-card img{
+    height: 242px;
+}
 /* ------------------------ Fim Special dishes ------------------------ */
