@@ -303,11 +303,9 @@ header{
 /* ------------------------ Customer Review ------------------------ */
 .review{
     padding: 100px;
-    color: var(--color-BG-Overlay);
+    background-color: var(--color-BG-Overlay);
     display: flex;
-    gap: 60px;
     flex-direction: column;
-    align-items: center;
 }
 
 .review-text{
@@ -319,6 +317,7 @@ header{
 
 .review h2{
     font-size: 48px;
+    font-weight: 900;
     color: var(--color-black);
 }
 
@@ -330,14 +329,38 @@ header{
 
 .review-container{
     display: flex;
+    justify-content: space-evenly;
+    /* gap: 21px; */
+    margin-top: 60px;    
 }
 .review-container-card{
     width: 399px;
     display: flex;
     flex-direction: column;
+    border-radius: 16px;
+    background-color: var(--color-white);
+    padding: 40px;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .review-container-card img{
     width: 100px;
+}
+
+.review-container-card h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-top: 24px;
+}
+
+.review-container-card p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 1, 0.6);
+    width: 319px;
+    margin-top: 16px;
 }
 /* ------------------------ Fim Customer Review ------------------------ */
