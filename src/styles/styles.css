@@ -342,6 +342,7 @@ header{
     padding: 40px;
     box-sizing: border-box;
     align-items: center;
+    box-shadow: 2px 4px 8px rgba(171, 190, 209, 0.30);
 }
 
 .review-container-card img{
@@ -361,6 +362,10 @@ header{
     font-weight: 300;
     color: rgba(0, 0, 1, 0.6);
     width: 319px;
-    margin-top: 16px;
+    margin-top: 16px;    
 }
 /* ------------------------ Fim Customer Review ------------------------ */
+
+/* ------------------------ About us ------------------------ */
+
+/* ------------------------ Fim About us ------------------------ */
