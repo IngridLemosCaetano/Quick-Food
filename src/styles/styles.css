@@ -125,7 +125,7 @@ header{
 
 #btn-order:hover{
     cursor: pointer;
-    transform: translatey(-3px);
+    transform: translatey(-1px);
     box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
 }
 
@@ -142,7 +142,7 @@ header{
 
 #btn-explore:hover{
     cursor: pointer;
-    transform: translatey(-3px);
+    transform: translatey(-1px);
     box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
 }
 
@@ -291,7 +291,7 @@ header{
 
 .special-card button:hover{
     cursor: pointer;
-    transform: translatey(-3px);
+    transform: translatey(-1px);
     box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
 }
 
@@ -412,11 +412,78 @@ header{
 
 .about-container button:hover{
     cursor: pointer;
-    transform: translatey(-3px);
+    transform: translatey(-1px);
     box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
 }
 /* ------------------------ Fim About us ------------------------ */
 
 /* ------------------------ Contact ------------------------ */
+.contact{
+    background-color: var(--color-BG-Overlay);
+    padding: 100px 0px;    
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.contact-content-text{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.contact-content-text h2{
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.contact-content-text p{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 1, 0.6);
+    text-align: center;
+}
+
+.contact-container{
+    width: 711px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px 8px 24px;
+}
+
+.contact-container input{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 1, 0.6);
+}
+
+.contact-container input:focus{
+    outline: none;
+}
+
+.contact-container button{
+    padding: 16px 32px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-container button:hover{
+    cursor: pointer;
+    transform: translatey(-1px);
+    box-shadow: 2px 5px 4px rgba(171, 190, 209, 0.60);
+}
+
 
 /* ------------------------ Fim Contact ------------------------ */
