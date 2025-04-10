@@ -487,5 +487,66 @@ header{
 /* ------------------------ Fim Contact ------------------------ */
 
 /* ------------------------ Footer ------------------------ */
+footer{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 100px;
+    align-items: center;
+}
 
+.footer-box{
+    display: flex;
+    gap: 126px;
+}
+
+.footer-container-icons-itens{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 212px; 
+    /* width: 923px;  */
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-links a{
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer-container h2{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
+.footer-text{
+    border-top: 1px solid var(--color-white);
+    /* width: 213px; */
+}
+
+.footer-text p{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 300;
+}
 /* ------------------------ Fim Footer ------------------------ */
