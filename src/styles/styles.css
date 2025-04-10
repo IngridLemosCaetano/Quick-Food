@@ -88,7 +88,6 @@ header{
 
 .deliver-container h1{
     font-size: 60;
-    /* font-family: 'Gilroy-Black', sans-serif !important; */
     font-weight: 900;
     line-height: 80px;
     color: var(--color-grey);
@@ -185,7 +184,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 60px 0px 40px 0px;
+    margin: 60px 0px 30px 0px;
     box-sizing: border-box;
     width: 400px;
     height: 340px;
@@ -194,12 +193,10 @@ header{
 .choose-cards h3{
     font-size: 28px;
     font-weight: 600;
-    font-family: "Gilroy-SemiBold"; /* pqp fonte */
-    margin-top: 40px;
 }
 
 .choose-cards p{
-    width: 275px;    
+    width: 260px;    
     font-size: 18px;
     font-weight: 300;
     text-align: center;
@@ -207,21 +204,20 @@ header{
 
 .choose-cards img{
     width: 218px;
+    margin-bottom: 40px;
 }
 
 .choose-infos-data{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
     width: 400px;
 }
 
 
 .choose-infos-data h3{
     color: var(--color-black);
-    font-size: 48px;
-    font-family: "Gilroy-Black"; /* pqp fonte */
+    font-size: 40px;
     font-weight: 900;
 }
 
