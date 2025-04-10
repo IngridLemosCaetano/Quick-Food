@@ -3,14 +3,14 @@
 /* ------------------------ Header ------------------------ */
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 290px;
     align-items: center;
 }
 
 .header-options{
     display: flex;
     gap: 40px;
-    list-style: none;
     font-size: 16px;
     font-weight: 300;
     margin: 56px 0px;
