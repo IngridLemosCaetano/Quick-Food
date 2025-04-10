@@ -51,7 +51,9 @@ QuickFood é um site que desenvolvi a partir de um template do figma, para testa
 
 1 - Baixar o Projeto <br>
 2 - Abrir em um editor de código <br>
-3 - Abrir o arquivo index.html
+3 - Abrir o arquivo index.html <br>
+
+Para visualizar o resultado final [Clique aqui](https://ingridlemoscaetano.github.io/Quick-Food/).
 
 <!-- ---------------------------------------------------------------------- -->
 
