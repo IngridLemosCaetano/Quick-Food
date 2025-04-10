@@ -44,10 +44,10 @@ header{
 }
 
 .header-icons img{
-    transition: 1s;
+    transition: 0.4s;
 }
 .header-icons img:hover{
-    transform: translateY(-8px);
+    transform: translateY(-4px);
 }
 
 .header-content a{
@@ -72,13 +72,13 @@ header{
 
 .deliver{
     display: flex;
-    gap: 124px;
-    justify-content: space-evenly;
+    gap: 230px;
+    justify-content: center;
     align-items: center;
 }
 
 .deliver-container {
-    width: 563px;
+    width: 614px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,6 @@ header{
 }
 
 .deliver-container p{
-    color: rgba(0, 0, 1, 0.6);
     font-size: 18px;
     font-weight: 300;
     width: 487px;
@@ -149,7 +148,6 @@ header{
 .deliver-image img{
     margin: 99px 0px 102px 0px;
     width: 451px;
-    /* height: 494px; */
 }
 /* ------------------------ Fim Deliver Food ------------------------ */
 
@@ -157,7 +155,7 @@ header{
 
 .choose{
     background-color: var(--color-BG-Overlay);
-    padding: 100px 0px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,7 +171,6 @@ header{
 .choose p{
     font-size: 18px;
     font-weight: 300;
-    color: var(--color-gray);
     margin-top: 8px;
     letter-spacing: 4.5%;
 }
@@ -189,7 +186,6 @@ header{
     flex-direction: column;
     align-items: center;
     margin: 60px 0px 40px 0px;
-    /* gap: 20px; */
     box-sizing: border-box;
     width: 400px;
     height: 340px;
@@ -229,9 +225,6 @@ header{
     font-weight: 900;
 }
 
-.choose-infos-data p{
-    color: var(--color-gray);
-}
 /* ------------------------ Fim Choose Us ------------------------ */
 
 /* ------------------------ Special dishes ------------------------ */
@@ -239,7 +232,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    /* gap: 60px; */
     padding: 100px;    
 }
 
@@ -266,7 +259,6 @@ header{
 
 .special-card p{
     width: 279px;
-    color: var(--color-black);
     margin: 16px 0px;
     font-size: 18px;
     font-weight: 300;
@@ -277,7 +269,6 @@ header{
     margin-top: 16px;
     font-weight: 900;
     font-size: 28px;
-    /* text-align: center; */
 }
 
 .special-card button{
@@ -323,14 +314,13 @@ header{
 
 .review p{
     font-size: 18px;
-    font-weight: 300;
-    color: var(--color-gray);    
+    font-weight: 300;    
 }
 
 .review-container{
     display: flex;
-    justify-content: space-evenly;
-    /* gap: 21px; */
+    justify-content: center;
+    gap: 30px;
     margin-top: 60px;    
 }
 .review-container-card{
@@ -360,7 +350,6 @@ header{
     text-align: center;
     font-size: 18px;
     font-weight: 300;
-    color: rgba(0, 0, 1, 0.6);
     width: 319px;
     margin-top: 16px;    
 }
@@ -369,9 +358,9 @@ header{
 /* ------------------------ About us ------------------------ */
 .about-us{
     display: flex;
-    /* gap: 82px; */
-    padding: 100px 0px;
-    justify-content: space-evenly;
+    gap: 100px;
+    padding: 100px;
+    justify-content: center;
 }
 
 .about-us img{
@@ -392,7 +381,6 @@ header{
 }
 
 .about-container p{
-    color: rgba(0, 0, 1, 0.6);
     font-size: 18px;
     font-weight: 300;
     line-height: 160%;
@@ -420,7 +408,7 @@ header{
 /* ------------------------ Contact ------------------------ */
 .contact{
     background-color: var(--color-BG-Overlay);
-    padding: 100px 0px;    
+    padding: 100px 326px;    
 }
 .contact-content{
     display: flex;
@@ -442,7 +430,6 @@ header{
 .contact-content-text p{
     font-size: 18px;
     font-weight: 300;
-    color: rgba(0, 0, 1, 0.6);
     text-align: center;
 }
 
@@ -498,7 +485,8 @@ footer{
 
 .footer-box{
     display: flex;
-    gap: 126px;
+    gap: 175px;
+    width: 1240px;
 }
 
 .footer-container-icons-itens{
@@ -510,14 +498,20 @@ footer{
 
 .footer-navigation{
     display: flex;
-    gap: 212px; 
-    /* width: 923px;  */
+    gap: 240px;
 }
 
 .footer-container{
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.footer-container h2{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
 }
 
 .footer-links{
@@ -532,16 +526,17 @@ footer{
     font-weight: 300;
 }
 
-.footer-container h2{
-    font-size: 18px;
-    font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
+.footer-links a:hover{
+    border-bottom: 1px solid var(--color-white);
 }
 
 .footer-text{
     border-top: 1px solid var(--color-white);
-    /* width: 213px; */
+    width: 1240px;
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+
 }
 
 .footer-text p{
